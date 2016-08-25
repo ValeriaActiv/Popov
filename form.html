@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body>
+<form action="formdata.php" method="POST" name="form1">
+<fieldset>
+    <legend>Ввод личных данных</legend>
+    <p><label>Введите имя: <input type="text" name="name" maxlength="15"></label></p>
+    <p><label>Введите пароль: <input type="password" name="name" maxlength="15"></label></p>
+</fieldset>
+    <fieldset>
+        <legend>Вопросы</legend>
+    <p>Согласны на обработку данных?</p>
+        <p><label>Да<input type="radio" name="time" value="yes" checked</label>
+        <label>Нет<input type="radio" name="time" value="no"</label></p>
+    </fieldset>
+</form>
+
+<p><label for="text">Ваши пожелания</label></p>
+<textarea name="text" cols="30" rows="10" id="text">Напишите ваши мысли...</textarea>
+<p><input type="reset" name="reset" value="Сброс"><input type="submit" name="submit" value="Отправить"></p>
+<p><input type="image" src="images/ibutton.png" name="images"</p>
+</body>
+</html>
