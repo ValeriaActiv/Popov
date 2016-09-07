@@ -4,12 +4,16 @@ body{
     padding:15px;
     margin:0 auto;
     width: 1000px;
+    background-color: aqua;
 }
 #header {
     text-transform: uppercase;
     padding-top: 40px;
     margin:20px auto 10px auto;
     width:550px;
+    background-color: orangered;
+    color:white;
+    border:1px solid black;
 }
 p {
     text-indent:30px;
@@ -25,7 +29,7 @@ a:hover{
     color:green;
 }
 a:active{
-    color: orchid;;
+    color: orchid;
 }
 
 h2 {
@@ -34,4 +38,12 @@ h2 {
 .new2 {
     text-align:center;
 }
-
+#span1{
+    border:1px solid #cc0003;
+    margin:0 30px 0 30px;
+    display:block;
+}
+ol li {
+    display:inline;
+    border:1px solid green;
+}
