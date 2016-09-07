@@ -1,17 +1,29 @@
 body {
     background: lightgrey;
+    background-image: url(images/pattern.jpg);
+    margin:0;
+    padding:0;
 }
 #main {
     width:800px;
-    height: 421px;
+    height: 991px;
     margin: 29px auto;
-    outline:4px solid darkblue;
-    background-image: url (bg.png)
+    outline:0px solid darkblue;
+    background-image: url(images/bg.png);
 }
 #main h1 {
     text-align:center;
     outline: 0px solid #cc0000;
     padding-top: 182px;
     font: 36px Vernada;
-    background-image: url ("gc.jpg")
+    background-image: url(images/gc.jpg);
+    background-repeat: no-repeat;
+    background-position: 35px 185px;
+}
+#wrapper {
+    outline: 2px solid #cc0000;
+    background-image: url(images/girl.png);
+    background-repeat: no-repeat;
+    background-position:0 120px;
+    background-attachment: fixed;
 }
