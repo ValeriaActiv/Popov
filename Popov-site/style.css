@@ -4,7 +4,7 @@ body{
     padding:15px;
     margin:0 auto;
     width: 1000px;
-    background-color: aqua;
+    background-image: url(images/pattern.jpg);
 }
 #header {
     text-transform: uppercase;
@@ -46,4 +46,24 @@ h2 {
 ol li {
     display:inline;
     border:1px solid green;
+}
+table, td, th {
+    border:1px solid #cccccc;
+    text-align: center;
+}
+table {
+    width: 700px;
+    border-collapse: collapse;
+    margin: 0 auto 0 auto;
+}
+th, td {
+    height:50px;
+    padding:5px;
+    vertical-align: middle;
+}
+th {
+    background-color: lightgrey;
+}
+#text-background {
+    background-color: white;
 }
