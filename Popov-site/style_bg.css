@@ -16,14 +16,11 @@ body {
     outline: 0px solid #cc0000;
     padding-top: 182px;
     font: 36px Vernada;
-    background-image: url(images/gc.jpg);
+    background-image: url(images/Tips.jpg);
     background-repeat: no-repeat;
     background-position: 35px 185px;
 }
 #wrapper {
-    outline: 2px solid #cc0000;
-    background-image: url(images/girl.png);
-    background-repeat: no-repeat;
-    background-position:0 120px;
-    background-attachment: fixed;
+    outline: 0px solid #cc0000;
+    background: url(images/girl.png) no-repeat fixed 0 120px;
 }
