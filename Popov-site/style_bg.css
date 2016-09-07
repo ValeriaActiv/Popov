@@ -1,0 +1,16 @@
+body {
+    background: lightgrey;
+}
+#main {
+    width:800px;
+    height: 421px;
+    margin: 29px auto;
+    outline:0px solid darkblue;
+    background-image: url (bg.png)
+}
+#main h1 {
+    text-align:center;
+    outline: 0px solid #cc0000;
+    padding-top: 182px;
+    font: 36px Vernada;
+}
