@@ -5,7 +5,7 @@ body {
     width:800px;
     height: 421px;
     margin: 29px auto;
-    outline:0px solid darkblue;
+    outline:4px solid darkblue;
     background-image: url (bg.png)
 }
 #main h1 {
@@ -13,4 +13,5 @@ body {
     outline: 0px solid #cc0000;
     padding-top: 182px;
     font: 36px Vernada;
+    background-image: url ("gc.jpg")
 }
