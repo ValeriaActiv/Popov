@@ -29,16 +29,19 @@
 }
 #div5,#div6,#div7 {
     width: 1020px;
-    height: 200px;
-    background-color: #F7FE2E;
+    height: 250px;
+    background-color: #0000FF;
 }
-*#div5 {
-    position:fixed;
-    left:10px;
-    top:5px;
-}*
-/*#div6 {
+#div5 {
+   position:relative;
+    left:5px; 
+    top:10px;
+}
+#div6 {
     position:relative;
-    left:10px;
-    top:205px;
-}*/
+    top:260px;
+}
+#div7 {
+    position:relative;
+    top: 260px;
+}
